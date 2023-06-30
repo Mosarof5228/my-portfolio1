@@ -1,0 +1,14 @@
+.nav-contract {
+  background-color: #ea580c;
+  padding: 5px 10px;
+  color: white;
+}
+.top-nav {
+  background-color: #fff7ed;
+  background-image: url("../../../assets/about2.svg");
+  color: white;
+}
+
+/* .nav-items {
+  color: white;
+} */
