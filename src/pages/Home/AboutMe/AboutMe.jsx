@@ -1,12 +1,25 @@
+import { useEffect } from 'react';
 import './AboutMe.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+
 
 const AboutMe = () => {
+    useEffect(() => {
+        AOS.init({
+            offset: 200,
+            duration: 600,
+            easing: 'ease-in-sine',
+            delay: 100,
+        });
+        AOS.refresh();
+    }, [])
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center about-me p-4">
-            <div>
+            <div data-aos="flip-left">
                 <img src="/src/assets/profile.jpg" alt="" />
             </div>
-            <div>
+            <div data-aos="flip-right">
                 <h1 className="text-5xl font-bold m-4">About Me</h1>
                 <p className="tracking-widest ml-4 text-2xl text-justify">Hello, I’m a UI/UX Designer & Frontend Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.</p>
                 <p className="ml-4 mt-6 tracking-normal text-xl text-justify">Welcome to my portfolio! I am Moriam Akter Swarna, a junior MERN stack developer who is enthusiastic about creating dynamic web applications. I recently completed an intensive web development course at Programming Hero, where I honed my skills in the MERN stack. Equipped with a solid foundation in JavaScript, I thrive on crafting interactive and responsive user interfaces.
