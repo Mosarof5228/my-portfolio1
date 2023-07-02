@@ -20,8 +20,8 @@ const Contact = () => {
     };
 
     return (
-        <div className='contact-form '>
-            <h1 className='m-8 flex justify-center text-6xl font-bold mt-[2px] pt-4'>Contact Me</h1>
+        <div id="contract" className='contact-form '>
+            <h1 className='m-8 flex justify-center text-6xl font-bold mt-[2px] pt-4 contact-title'>Contact Me</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 mt-4 p-4'>
                 <div className='mt-4'>
                     <div>

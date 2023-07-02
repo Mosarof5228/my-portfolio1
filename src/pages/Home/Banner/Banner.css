@@ -1,5 +1,18 @@
 .banner {
   /* background-image: url("/src/assets/Moon.svg"); */
   /* color: white; */
-  background-color: #ffffff;
+  background-color: #b4b3dc;
+}
+.banner-hr {
+  /* background-color: #804EFB; */
+  background-color: #c5adc5;
+}
+.typewrite-text {
+  color: #2e409e;
+}
+.name {
+  color: #2e409e;
+}
+.banner-para {
+  color: #2e409e;
 }

@@ -6,14 +6,15 @@ import './Navbar.css'
 
 const Navbar = () => {
     const navOptions = <>
-        <li className='hover:bg-white rounded-lg'><a className="letter-spacing">Home</a></li>
-        <li className='hover:bg-white rounded-lg'><a>About</a></li>
-        <li className='hover:bg-white rounded-lg'><a>Services</a></li>
-        <li className='hover:bg-white rounded-lg'><a>Projects</a></li>
-        <li className='hover:bg-white rounded-lg'><a>Contract</a></li>
+        <li className='hover:bg-white rounded-lg'><a href='#home' className="letter-spacing">Home</a></li>
+        <li className='hover:bg-white rounded-lg'><a href='#about'>About</a></li>
+        <li className='hover:bg-white rounded-lg'><a href='#skills'>Skills</a></li>
+        <li className='hover:bg-white rounded-lg'><a href='#projects'>Projects</a></li>
+        <li className='hover:bg-white rounded-lg'><a href='#services'>Services</a></li>
+        <li className='hover:bg-white rounded-lg'><a href='#contract'>Contract</a></li>
     </>
     return (
-        <div className="navbar bg-base-100 top-nav fixed z-10 max-w-screen-xl">
+        <div className="navbar bg-base-100 top-nav fixed z-10 max-w-screen-xl shadow-xl shadow-purple-400 bg-black text-white font-bold">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

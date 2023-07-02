@@ -1,4 +1,8 @@
 .about-me {
   /* background-image: url("/src/assets/about2.svg");
   color: white; */
+  background-color: #f4f5ff;
+}
+.aboutMe-title {
+  color: #2e409e;
 }

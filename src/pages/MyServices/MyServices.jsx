@@ -3,10 +3,10 @@ import './MyServices.css'
 
 const MyServices = () => {
     return (
-        <div className='mb-4'>
-            <h1 className='font-bold text-5xl pt-4 text-center shadow-lg py-4'>My Services</h1>
+        <div className='mb-4 ' id="service">
+            <h1 className='font-bold text-5xl pt-4 text-center shadow-lg py-4 services-title'>My Services</h1>
             <div className='mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-2'>
-                <div className="card w-fit bg-base-100 shadow-xl">
+                <div className="card w-fit bg-base-100 shadow-xl shadow-purple-400">
                     <figure className="px-10 pt-10">
                         <img src="/src/assets/web design.jpg" alt="Shoes" className="rounded-xl h-[60px] " />
                     </figure>
@@ -18,7 +18,7 @@ const MyServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-fit bg-base-100 shadow-xl">
+                <div className="card w-fit bg-base-100 shadow-xl shadow-purple-400">
                     <figure className="px-10 pt-10">
                         <img src="/src/assets/web_devleopment-removebg-preview (1).png" alt="Shoes" className="rounded-xl h-[60px] " />
                     </figure>
@@ -30,7 +30,7 @@ const MyServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-fit bg-base-100 shadow-xl">
+                <div className="card w-fit bg-base-100 shadow-xl shadow-purple-400">
                     <figure className="px-10 pt-10">
                         <img src="/src/assets/data_integration-removebg-preview (1).png" alt="Shoes" className="rounded-xl h-[60px] " />
                     </figure>
