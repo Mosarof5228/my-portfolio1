@@ -1,6 +1,6 @@
 
 import './Navbar.css'
-
+import profile from '../../../assets/all skills/profile.jpg'
 
 
 
@@ -32,7 +32,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <img className="h-10 w-10 rounded-l-full" src="/src/assets/profile.jpg" alt="" />
+                <img className="h-10 w-10 rounded-full" src={profile} alt="" />
             </div>
         </div>
     );
